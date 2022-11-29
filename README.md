@@ -20,8 +20,8 @@ Backend Rails API with a Postgres database set up.
 
 ## Getting Started
  To get a local copy of this project, open your terminal and type:
-  - git clone https://github.com/AngomRanjan/budget-app
-  - cd budget-app
+  - git clone git@github.com:AngomRanjan/hello-rails-back-end.git
+  - cd hello-rails-back-end
   - bundle install
   - rails db:create
   - rails db:migrate
@@ -41,7 +41,7 @@ Backend Rails API with a Postgres database set up.
 Give a [⭐️](../../stargazers) if you like this project!
 
 ### 🤝 Contributing
-Contributions, [issues](https://github.com/AngomRanjan/budget-app/issues), and feature requests are welcome! Feel free to check the issues page.
+Contributions, [issues](https://github.com/AngomRanjan/hello-rails-back-end/issues), and feature requests are welcome! Feel free to check the issues page.
 
 ## :footprints: Track Me
 
