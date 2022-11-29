@@ -1,11 +1,14 @@
-class GreetingsController < ApplicationController
+class Api::V1::GreetingsController < ApplicationController
   before_action :set_greeting, only: %i[ show update destroy ]
 
   # GET /greetings
   def index
     @greetings = Greeting.all
-
-    render json: @greetings
+    if @greetings
+      render json: @greetings[rand(0...@greetings.length - 1)]
+    else      
+      render json: { msg: 'Bad Request', status: 400 }
+    end
   end
 
   # GET /greetings/1
